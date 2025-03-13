@@ -24,9 +24,9 @@ def download_dataset(source, target):
 # COMMAND ----------
 
 data_source_uri = "s3://dalhussein-courses/datasets/bookstore/v1/"
-dataset_bookstore = 'dbfs:/mnt/demo-datasets/bookstore'
-data_catalog = 'hive_metastore'
-spark.conf.set(f"dataset.bookstore", dataset_bookstore)
+dataset_bookstore = "/Volumes/partner_workspace_qs/ijacobs_bookstore/bookstore"
+data_catalog = "partner_workspace_qs"
+
 
 # COMMAND ----------
 
